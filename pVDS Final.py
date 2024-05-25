@@ -74,11 +74,8 @@ def main():
     
     
     
-
-    # Define the window layout
     layout = [ [sg.Column(col2, element_justification="c"), sg.Column(col1)] ]
 
-        # Create the window and show it without the plot
     window = sg.Window("pVDS Image Processor", layout, resizable=True)
     
     capd = "none"
@@ -151,5 +148,3 @@ def main():
     window.close()
 
 main()
-
-#end
